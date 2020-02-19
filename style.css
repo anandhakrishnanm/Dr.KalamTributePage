@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    background-image: url("images/vintage-concrete.png");
+
+
+
+}
+#title{
+    margin: 10vh;
+    box-shadow: black;
+    background-color: #d1ccc5;
+    padding: 3vh;
+    position: relative;
+    
+}
+#title:before{
+	position: absolute;
+	content: "";
+	z-index:-1;
+	bottom: 5px;
+	left: 30px;
+	right: 30px;
+	top: 80%;
+	background: #777;
+	-webkit-box-shadow: 0 0 30px 17px #486685;
+	-moz-box-shadow: 0 0 30px 17px #486685;
+	box-shadow: 0 0 30px 17px #486685;
+	border-radius: 100px/10px; 
+}
+#image{
+    width: 90vh;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    max-width: 100%;
+}
+#img-div{
+    background-color: #d1ccc5;
+    margin: 10vh;
+    max-width: 100%;
+}
+#tagline{
+    font-size: 4vh;
+}
+ul li{
+    text-align: left;
+    margin: 10vh;
+}
+#tribute-info{
+    font-family: railway;
+}
+#img-caption{
+    padding-bottom: 3vh;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(61, 73, 73);
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    #image{
+        width: 100%;
+        margin: 6vh auto;
+        padding: 0;
+       
+        
+        
+    }
+    #img-div{
+        width: 100%;
+        margin: 6vh 0;
+        padding: 0;
+       
+    }
+    #title{
+        width: 100%;
+        margin: 5vh 0 5vh 0;
+        padding: 3vh;
+        
+    }
+    #tagline{
+        margin: 0 6vh;
+        padding: 3vh;
+    }
+    
+    
+    
+}
