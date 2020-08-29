@@ -14,7 +14,7 @@ body {
     margin: 10vh;
     box-shadow: black;
     background-color: #d1ccc5;
-    padding: 0vh;
+    padding: 3vh;
     position: relative;
     
 }
@@ -85,7 +85,7 @@ a:hover{
     #title{
         width: 100%;
         margin: 5vh 0 5vh 0;
-        padding: 3vh;
+        padding: 0vh;
         
     }
     #tagline{
